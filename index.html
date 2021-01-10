@@ -7,13 +7,35 @@
     <title>Java Virus - Writing a computer virus with Java language</title>
 
     <link rel="canonical" href="https://github.com/java-virus">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-  <meta name="theme-color" content="#212529">
+<meta name="theme-color" content="#212529">
+
 
     <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
       .card-header {
         height: 230px;
+      }
+
+      .card-title {
+        margin: 166px -1rem -0.5rem -1rem;
+        background: rgba(33, 37, 41, .75);
+        padding: 1rem;
+        color: white;
       }
     </style>
 
@@ -35,12 +57,13 @@
 
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
+      <div class="col-lg-8 col-md-8 mx-auto">
         <h1 class="fw-light">Writing a Java Virus</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p class="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          <a href="download.html" class="btn btn-primary my-2"> <strong>&#x21e9;</strong> Download sample executable <strong>&#x2623;</strong></a>
+          <br>
+          <span class="text-muted">The sample app has a user interface and asks for your permission before causing any harm.</span>
         </p>
       </div>
     </div>
@@ -52,8 +75,9 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow">
-            <div class="card-header" style=" background: url(https://image.freepik.com/free-photo/hacker-man-laptop_144627-25530.jpg) center 75%;">
-                <!-- https://www.freepik.com/free-photo/hacker-man-laptop_7783839.htm -->
+            <div class="card-header" style=" background: url(https://image.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_155003-1918.jpg) center 75%;">
+                <!-- https://www.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_8924027.htm -->
+                <h5 class="card-title">Rationale and Disclaimer of Liability</h5>
             </div>
 
             <div class="card-body">
@@ -62,15 +86,15 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow">
-            <div class="card-header" style=" background: url(https://image.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_155003-1918.jpg) center 75%;">
-                <!-- https://www.freepik.com/free-photo/hooded-computer-hacker-stealing-information-with-laptop_8924027.htm -->
+            <div class="card-header" style=" background: url(https://image.freepik.com/free-photo/hacker-man-laptop_144627-25530.jpg) center 75%;">
+                <!-- https://www.freepik.com/free-photo/hacker-man-laptop_7783839.htm -->
+                <h5 class="card-title">Basic Principles of Virus Development</h5>
             </div>
 
             <div class="card-body">
@@ -79,7 +103,6 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -88,6 +111,7 @@
           <div class="card shadow">
             <div class="card-header" style=" background: url(https://image.freepik.com/free-photo/hacker-man-laptop_144627-25530.jpghttps://image.freepik.com/free-photo/virus-cells-floating-particles_1048-12475.jpg) center 75%;">
                 <!-- https://www.freepik.com/free-photo/virus-cells-floating-particles_8722221.htm -->
+                <h5 class="card-title">Writing a Java Virus</h5>
             </div>
 
             <div class="card-body">
@@ -96,7 +120,57 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header" style=" background: url(https://image.freepik.com/free-vector/coming-soon-background-with-spot-light-design_1017-25515.jpg) center 60%;">
+                <!-- https://www.freepik.com/free-vector/nuclear-explosion-rising-orange-fireball-atomic-mushroom-cloud-desert-weapon_4188754.htm -->
+                <h5 class="card-title">Designing a Payload</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header" style=" background: url(https://image.freepik.com/free-vector/coming-soon-background-with-spot-light-design_1017-25515.jpg) center 60%;">
+                <!-- https://www.freepik.com/free-vector/coming-soon-background-with-spot-light-design_8562878.htm -->
+                <h5 class="card-title">Infecting Java 8 Runtime</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <div class="card-header" style=" background: url(https://image.freepik.com/free-vector/coming-soon-background-with-spot-light-design_1017-25515.jpg) center 60%;">
+                <!-- https://www.freepik.com/free-vector/coming-soon-background-with-spot-light-design_8562878.htmhttps://www.freepik.com/free-vector/modern-spaceship-interior-background-with-flat-design_2907830.htm -->
+                <h5 class="card-title">Writing a Command & Control Software</h5>
+            </div>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Read</button>
+                </div>
               </div>
             </div>
           </div>
