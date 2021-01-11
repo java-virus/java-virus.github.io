@@ -1,0 +1,26 @@
+= Rationale and Disclaimer of Liability
+Java Virus
+v1.0.0, {docdate}: Initial revision
+:description: The document's description.
+:url-repo: https://my-git-repo.com
+:toc: left
+:docinfo: shared
+:nofooter:
+
+This page explains the rationale behind tutorials and codes in this website and intends to clearly state that all those are for educational purposes.
+
+== Why
+
+Writing malware, especially  a virus requires to know the nuts and bolts of a language, and target platform. Hence, it's a great practice to sharpen one's technical skills.
+
+== Disclaimer of Liability
+
+TLDR; Use anything in this website at your own risk. Don't do illegal stuff with codes or information presented here, if you do we cannot be held responsible because we told you not to do so.
+
+All the codes, executables and information here in this website and related repositories are presented in good will for informative purposes. We never, directly or implied,encourage developing or distributing any kind of malware other than educational purposes.
+
+We are not responsible for any misuse, intended or unintended, of material or knowledge from this website by anyone. Any harm that will occur either because of codes presented in this website or any code developed by anyone with using information presented here is in the responsibility of executing party of the code or operation, not the writer of this website or developer(s) of codes presented here or related repositories.
+
+We add explanatory instructions in order to prevent unintended data loss or corruption to all the codes and executables in a best-effort basis. That is, some codes or executables may have missing or no instruction at all. This cannot be interpreted as any ill-intention since this is (if any) just a honest human error.
+
+That being said, despite the instructions, we strongly advise anyone who cannot fully understand the codes presented here not to execute any code presented here or at least execute them in a sandboxed, disposable environment.
