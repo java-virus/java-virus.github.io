@@ -1,0 +1,40 @@
+= Basic Principles of Virus Development
+Java Virus
+v1.0.0, {docdate}: Initial revision
+:description: The document's description.
+:url-repo: https://my-git-repo.com
+:toc: left
+:docinfo: shared
+:nofooter:
+:previous-page: rationale
+:next-page: self-replicating-virus-in-java
+
+Along with the general principles we will also focus on virus development principles in Java.
+
+== Definitions & Concepts
+
+=== Malware Types
+
+Note that this is not an exhaustive list of definitions.
+
+==== Virus
+
+==== Worm
+
+==== Trojan
+
+==== Bots
+
+=== Virus parts
+
+==== Infection vector
+
+==== Trigger
+
+==== Payload
+
+
+== References & Further reading
+
+. https://web.archive.org/web/20210108155304/https://tools.cisco.com/security/center/resources/virus_differences
+. https://en.wikipedia.org/wiki/Computer_virus#Early_academic_work_on_self-replicating_programs

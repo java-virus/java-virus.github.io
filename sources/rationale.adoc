@@ -6,6 +6,8 @@ v1.0.0, {docdate}: Initial revision
 :toc: left
 :docinfo: shared
 :nofooter:
+:previous-page: .
+:next-page: principles
 
 This page explains the rationale behind tutorials and codes in this website and intends to clearly state that all those are for educational purposes.
 
