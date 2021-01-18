@@ -7,8 +7,7 @@
   <title>Self Replicating Java Virus - Writing a computer virus with Java language</title>
 
   <link href="https://github.com/java-virus" rel="canonical">
-  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-        rel="stylesheet">
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" rel="stylesheet">
 
   <meta content="#2d89ef" name="theme-color">
   <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -19,9 +18,18 @@
   <meta content="#2d89ef" name="msapplication-TileColor">
 
   <style>
+
+    main::before {
+      content: ' ';
+      background-color: #FFC823;
+      display: block;
+      height: 150px;
+    }
+
     main > section {
       background: url(images/virus-shield-faded.png) 90% center no-repeat;
       /*  https://www.freepik.com/free-vector/virus-graphic-design-vector-illustration_4984584.htm */
+      margin-top: -120px;
     }
 
     h1 strong {
@@ -58,8 +66,9 @@
   </div>
 </header>
 
-<main>
-  <section class="py-5 container">
+<main class="bg-light">
+
+  <section class="card shadow container p-5">
     <div class="row py-lg-5">
       <div class="col-lg-8 col-md-8">
         <h1 class="fw-light">Writing a Virus in <strong>Java</strong></h1>
@@ -78,7 +87,7 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
+  <div class="album py-5">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
