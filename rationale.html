@@ -439,6 +439,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<meta name="id" content="rationale">
+
 <meta name="theme-color" content="#2d89ef">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -473,7 +475,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">Java Virus</span><br>
 <span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2021-01-13</span>
+<span id="revdate">2021-01-19</span>
 <br><span id="revremark">Initial revision</span>
 </div>
 <div id="toc" class="toc2">
@@ -481,6 +483,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#_why">Why</a></li>
 <li><a href="#_disclaimer_of_liability">Disclaimer of Liability</a></li>
+<li><a href="#_comments">Comments</a></li>
 </ul>
 </div>
 </div>
@@ -518,6 +521,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>That being said, despite the instructions, we strongly advise anyone who cannot fully understand the codes presented here not to execute any code presented here or at least execute them in a sandboxed, disposable environment.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_comments">Comments</h2>
+<div class="sectionbody">
+<div id="disqus_thread"></div>
+<script>
+
+    var disqus_config = function () {
+      this.page.url = location.href;
+      this.page.identifier = document.querySelector('meta[name=id]').content;
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://javavirus.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </div>
 </div>
@@ -575,7 +599,5 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
   document.body.style.paddingTop = '56px';
 
 </script>
-
-<!--https://javavirus.disqus.com/admin/install/platforms/universalcode/-->
 </body>
 </html>

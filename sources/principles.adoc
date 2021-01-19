@@ -2,7 +2,6 @@
 Java Virus
 v1.0.0, {docdate}: Initial revision
 :description: The document's description.
-:url-repo: https://my-git-repo.com
 :toc: left
 :docinfo: shared
 :nofooter:
@@ -38,3 +37,5 @@ Note that this is not an exhaustive list of definitions.
 
 . https://web.archive.org/web/20210108155304/https://tools.cisco.com/security/center/resources/virus_differences
 . https://en.wikipedia.org/wiki/Computer_virus#Early_academic_work_on_self-replicating_programs
+
+include::comments.asciidoc[]

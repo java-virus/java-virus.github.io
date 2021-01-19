@@ -26,3 +26,5 @@ We are not responsible for any misuse, intended or unintended, of material or kn
 We add explanatory instructions in order to prevent unintended data loss or corruption to all the codes and executables in a best-effort basis. That is, some codes or executables may have missing or no instruction at all. This cannot be interpreted as any ill-intention since this is (if any) just a honest human error.
 
 That being said, despite the instructions, we strongly advise anyone who cannot fully understand the codes presented here not to execute any code presented here or at least execute them in a sandboxed, disposable environment.
+
+include::comments.asciidoc[]

@@ -6,7 +6,7 @@ cd "${SOURCES_DIR}" || exit
 
 asciidoctor "*.adoc"
 
-GENERATED_FILES=$(ls *.html -1a | grep -v "docinfo*")
+GENERATED_FILES=$(ls *.html -1a | grep -v "docinfo*" | grep -v "comments.html")
 
 for VARIABLE in ${GENERATED_FILES}
 do
